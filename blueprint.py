@@ -6,15 +6,6 @@ from pydantic import BaseModel, Field
 
 import sys
 
-"""
-Multiprocessing for non-blocking action calls. Multiprocessing lib 
-rather than threading, as it can leverage multi core systems 
-(good for processing)  
-"""
-# TODO - look into the pool type for multiprocessing to execute processing 
-# in par
-import multiprocessing as mp 
-
 from globus_action_provider_tools import (
     ActionProviderDescription,
     ActionRequest,
@@ -36,34 +27,40 @@ from globus_action_provider_tools.flask.types import (
 from backend import simple_backend
 
 class ActionProviderInput(BaseModel):
-    utc_offset: int = Field(
-        ..., title="UTC Offset", description="An input value to this ActionProvider"
+    path: str = Field(
+        ..., title="Path to wet.path.gz file", description="Path to data from the CC corpus"
+    )
+    prefix_list: str = Field(
+        ..., title="Selected segment to process", description="Segement to process, E.G 'CC-MAIN-2017-09'"
     )
 
     class Config:
-        schema_extra = {"example": {"utc_offset": 10}}
+        schema_extra = {"example": {
+            "path": "common_crawl_download/CC-MAIN-2022-40/CC-MAIN-2022-40-wet.paths.gz",
+            "prefix_list": "CC-MAIN-2017-09"
+            }}
 
 # Modified globus_auth_scope to be the newly generated scope
 # https://auth.globus.org/scopes/27c72d0c-9a46-4a5d-a6a5-bd2cd35bc574/action_all
 description = ActionProviderDescription(
     globus_auth_scope="https://auth.globus.org/scopes/27c72d0c-9a46-4a5d-a6a5-bd2cd35bc574/action_all",
-    title="What Time Is It Right Now?",
-    admin_contact="support@whattimeisrightnow.example",
+    title="Common Crawl pre-processing",
+    admin_contact="ael56@uclive.ac.nz",
     synchronous=True,
     input_schema=ActionProviderInput,
     api_version="1.0",
-    subtitle="Another exciting promotional tie-in for whattimeisitrightnow.com",
-    description="",
-    keywords=["time", "whattimeisitnow", "productivity"],
+    subtitle="Get suitable subtitle from Jonathan",
+    description="Get suitable description from Jonathan",
+    keywords=["Common Crawl", "NLP", "productivity"],
     visible_to=["public"],
     runnable_by=["all_authenticated_users"],
-    administered_by=["support@whattimeisrightnow.example"],
+    administered_by=["ael56@uclive.ac.nz"],
 )
 
 aptb = ActionProviderBlueprint(
-    name="apt",
+    name="cc",
     import_name=__name__,
-    url_prefix="/apt",
+    url_prefix="/cc",
     provider_description=description
 )
 
@@ -134,14 +131,18 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
     )
     simple_backend[action_status.action_id] = action_status
 
-    # Note the fork context is only available on Unix
-    ctx = mp.get_context('fork')
-    action_process = ctx.Process(target=dummy_logic, 
-                                 args=(action_status.action_id, action_request.body))
-    # You dont need to explicitly terminate the process, it auto removes after target execution
-    action_process.start()
+    CC_processing(action_status.action_id, action_request.body)
+    # dummy_logic(action_status.action_id, action_request.body)
 
     return action_status
+
+# TODO strongly define request_body 
+def CC_processing(action_id: str, request_body) -> ActionCallbackReturn:
+    # Create an instance of the custom CC corpus class
+    print(request_body)
+    from common_crawl_corpus.cc_corpus import CC_Corpus
+    CC_Corpus = CC_Corpus()
+    CC_Corpus.process_crawl(request_body['path'],request_body['prefix_list'])
 
 # TODO strongly define request_body
 def dummy_logic(action_id: str, request_body) -> ActionCallbackReturn:
@@ -158,7 +159,7 @@ def dummy_logic(action_id: str, request_body) -> ActionCallbackReturn:
     print(f"Full Action ID: {action_id}", file=sys.stderr)
     print(f"Passed action request body: {request_body}", file=sys.stderr)
     # Simulation of some action taking time
-    time.sleep(10) 
+    time.sleep(60) 
 
     end_processing = time.time()
 
@@ -188,7 +189,6 @@ def my_action_status(action_id: str, auth: AuthState) -> ActionCallbackReturn:
     an external system to get up to date information on an Action's status.
     """
     action_status = simple_backend.get(action_id)
-    print(simple_backend.get(action_id))
     if action_status is None:
         raise ActionNotFound(f"No action with {action_id}")
     authorize_action_access_or_404(action_status, auth)

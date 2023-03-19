@@ -6,7 +6,7 @@ Executes common_crawl_corpus pre-processing developed [here](https://github.com/
 
 To get information regarding this AP's (Action Provider) actions, run a GET request to the server to /cc. This produces the output: 
 
-'''json
+'''yaml
 {
   "admin_contact": "ael56@uclive.ac.nz",
   "administered_by": [

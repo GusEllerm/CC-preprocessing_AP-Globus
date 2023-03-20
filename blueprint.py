@@ -127,10 +127,15 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
     prev_request = request_database.get(full_request_id)
 
     if prev_request is not None:
-        # If there is a previous request which matches this one
-        # return the status
+        """
+        NOTE: This is needed because the Globus client sends multiple
+        post requests to the server when starting an action (is this 
+        for redundency?, traffic issues?). This stops further requests
+        once a unique action is logged, and returns the status of the 
+        currently logged request.
+        """
         if prev_request[0] == request:
-            return action_status(prev_request[1], auth)
+            return my_action_status(prev_request[1], auth)
         else:
             raise ActionConflict(
                 f"Request with id {request_id} already present with different parameters"
@@ -265,6 +270,8 @@ def my_action_release(action_id: str, auth: AuthState) -> ActionCallbackReturn:
         raise ActionConflict("Cannot release incomplete Action")
 
     action_status.display_status = f"Released by {auth.effective_identity}"
+    # TODO currently dont understand the release mechanic and this might break
+    request_database.pop(action_id)
     action_database.pop(action_id)
     return action_status
 

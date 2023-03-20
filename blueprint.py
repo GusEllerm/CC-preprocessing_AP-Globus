@@ -4,6 +4,8 @@ from typing import Dict, List, Set
 from flask import request
 from pydantic import BaseModel, Field
 
+import asyncio 
+
 import sys
 
 from globus_action_provider_tools import (
@@ -131,18 +133,33 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
     )
     simple_backend[action_status.action_id] = action_status
 
+    #loop = asyncio.new_event_loop()
+    #asyncio.set_event_loop(loop)
+
+    #CC_processing(action_status.action_id, action_request.body), loop)
+    # print(future)
     CC_processing(action_status.action_id, action_request.body)
     # dummy_logic(action_status.action_id, action_request.body)
 
     return action_status
 
 # TODO strongly define request_body 
-def CC_processing(action_id: str, request_body) -> ActionCallbackReturn:
+def CC_processing(action_id: str, request_body):
     # Create an instance of the custom CC corpus class
     print(request_body)
     from common_crawl_corpus.cc_corpus import CC_Corpus
     CC_Corpus = CC_Corpus()
     CC_Corpus.process_crawl(request_body['path'],request_body['prefix_list'])
+
+    # Get the action from database
+    action_status = simple_backend.get(action_id)
+    action_status.completion_time=datetime.now(timezone.utc).isoformat()
+    action_status.status=ActionStatusValue.SUCCEEDED
+    action_status.display_status=ActionStatusValue.SUCCEEDED
+    # action_status.completion_time=(end_processing-begin_processing)
+
+    # Regester the edited action_status
+    simple_backend[action_id] = action_status
 
 # TODO strongly define request_body
 def dummy_logic(action_id: str, request_body) -> ActionCallbackReturn:

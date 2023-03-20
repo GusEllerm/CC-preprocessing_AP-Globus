@@ -1,6 +1,6 @@
 # Flask action provider
 
-Executes common_crawl_corpus pre-processing developed [here](https://github.com/jonathandunn/common_crawl_corpus "Common Crawl Corpus")
+Executes common_crawl_corpus pre-processing developed [here](https://github.com/jonathandunn/common_crawl_corpus "Common Crawl Corpus").
 
 ## Use
 

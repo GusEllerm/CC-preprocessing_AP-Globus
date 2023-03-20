@@ -21,7 +21,7 @@ class CC_Process(GladierBaseTool):
                     'prefix_list.$': '$.input.prefix_list',
                 },
                 'ResultPath': '$.CC_Process',
-                # 'WaitTime': 600,
+                'WaitTime': 100000,
                 'ActionScope': 'https://auth.globus.org/scopes/27c72d0c-9a46-4a5d-a6a5-bd2cd35bc574/action_all',
                 'End': True,
             },

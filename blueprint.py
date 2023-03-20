@@ -121,10 +121,15 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
     print(f'Action request ID: {action_request.request_id}', file=sys.stderr)
 
     # Regester action request to parse out continuing requests
+
+    # ID:urn:globus:auth:identity:25af9d3b-aeb8-4f44-9c88-3264ad82a3ae:flows_req_d869a4c4-ced1-4e25-a6b8-d6a0d6f7babc
+
     caller_id = auth.effective_identity
-    request_id = action_request.request_id
-    full_request_id = f"{caller_id}:{request_id}"
+    prefix_to_process = action_request.body['prefix_list']
+    full_request_id = f"{caller_id}:{prefix_to_process}"
     prev_request = request_database.get(full_request_id)
+
+    print(f"FULL REQUEST ID:{full_request_id}")
 
     if prev_request is not None:
         """

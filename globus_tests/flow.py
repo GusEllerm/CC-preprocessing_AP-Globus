@@ -39,10 +39,12 @@ if __name__ == '__main__':
     cc_process = TestClient()
     pprint(cc_process.flow_definition)
 
-    flow = cc_process.run_flow(flow_input=flow_input)
+    flow = cc_process.run_flow(
+        flow_input=flow_input,
+        label="Test")
 
     # Track the progress
-    # action_id = flow['action_id']
-    # cc_process.progress(action_id)
-    # pprint(cc_process.get_status(action_id))
+    action_id = flow['action_id']
+    cc_process.progress(action_id)
+    pprint(cc_process.get_status(action_id))
 

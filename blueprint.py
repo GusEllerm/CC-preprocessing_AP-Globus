@@ -26,7 +26,7 @@ from globus_action_provider_tools.flask.types import (
     ActionLogReturn,
 )
 
-from backend import simple_backend
+from backend import action_database, request_database
 
 class ActionProviderInput(BaseModel):
     path: str = Field(
@@ -88,7 +88,7 @@ def action_enumeration(auth: AuthState, params: Dict[str, Set]) -> List[ActionSt
     roles = params["roles"]
     matches = []
 
-    for _, action in simple_backend.items():
+    for _, action in action_database.items():
         if action.status in statuses:
             # Create a set of identities that are allowed to access this action,
             # based on the roles being queried for
@@ -119,6 +119,23 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
     # Regestration of action
     print('Action running', file=sys.stderr)
     print(f'Action request ID: {action_request.request_id}', file=sys.stderr)
+
+    # Regester action request to parse out continuing requests
+    caller_id = auth.effective_identity
+    request_id = action_request.request_id
+    full_request_id = f"{caller_id}:{request_id}"
+    prev_request = request_database.get(full_request_id)
+
+    if prev_request is not None:
+        # If there is a previous request which matches this one
+        # return the status
+        if prev_request[0] == request:
+            return action_status(prev_request[1], auth)
+        else:
+            raise ActionConflict(
+                f"Request with id {request_id} already present with different parameters"
+            )
+        
     action_status = ActionStatus(
         status=ActionStatusValue.ACTIVE,
         creator_id=str(auth.effective_identity),
@@ -131,15 +148,13 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
         display_status=ActionStatusValue.ACTIVE,
         details={},
     )
-    simple_backend[action_status.action_id] = action_status
+    # Update action_database with action object
+    action_database[action_status.action_id] = action_status
+    # update request_database with unique request ID
+    request_database[full_request_id] = (request, action_status.action_id)
 
-    #loop = asyncio.new_event_loop()
-    #asyncio.set_event_loop(loop)
-
-    #CC_processing(action_status.action_id, action_request.body), loop)
-    # print(future)
     CC_processing(action_status.action_id, action_request.body)
-    # dummy_logic(action_status.action_id, action_request.body)
+    # dummy_logic(action_status.action_id, action_request.body) # Testing logic
 
     return action_status
 
@@ -152,14 +167,14 @@ def CC_processing(action_id: str, request_body):
     CC_Corpus.process_crawl(request_body['path'],request_body['prefix_list'])
 
     # Get the action from database
-    action_status = simple_backend.get(action_id)
+    action_status = action_database.get(action_id)
     action_status.completion_time=datetime.now(timezone.utc).isoformat()
     action_status.status=ActionStatusValue.SUCCEEDED
     action_status.display_status=ActionStatusValue.SUCCEEDED
     # action_status.completion_time=(end_processing-begin_processing)
 
     # Regester the edited action_status
-    simple_backend[action_id] = action_status
+    action_database[action_id] = action_status
 
 # TODO strongly define request_body
 def dummy_logic(action_id: str, request_body) -> ActionCallbackReturn:
@@ -181,17 +196,17 @@ def dummy_logic(action_id: str, request_body) -> ActionCallbackReturn:
     end_processing = time.time()
 
     # Get the action from database
-    action_status = simple_backend.get(action_id)
+    action_status = action_database.get(action_id)
     action_status.completion_time=datetime.now(timezone.utc).isoformat()
     action_status.status=ActionStatusValue.SUCCEEDED
     action_status.display_status=ActionStatusValue.SUCCEEDED
     action_status.completion_time=(end_processing-begin_processing)
 
     # Regester the edited action_status
-    simple_backend[action_id] = action_status
+    action_database[action_id] = action_status
 
     print(action_status)
-    print(simple_backend[action_id])
+    print(action_database[action_id])
     print("Action processing completed", file=sys.stderr)
     print("Subprocess terminating", file=sys.stderr)
 
@@ -205,7 +220,7 @@ def my_action_status(action_id: str, auth: AuthState) -> ActionCallbackReturn:
     ActionStatus. It's possible that some ActionProviders will require querying
     an external system to get up to date information on an Action's status.
     """
-    action_status = simple_backend.get(action_id)
+    action_status = action_database.get(action_id)
     if action_status is None:
         raise ActionNotFound(f"No action with {action_id}")
     authorize_action_access_or_404(action_status, auth)
@@ -220,7 +235,7 @@ def my_action_cancel(action_id: str, auth: AuthState) -> ActionCallbackReturn:
     stopped. Once cancelled, the ActionStatus object should be updated and
     stored.
     """
-    action_status = simple_backend.get(action_id)
+    action_status = action_database.get(action_id)
     if action_status is None:
         raise ActionNotFound(f"No action with {action_id}")
 
@@ -230,7 +245,7 @@ def my_action_cancel(action_id: str, auth: AuthState) -> ActionCallbackReturn:
 
     action_status.status = ActionStatusValue.FAILED
     action_status.display_status = f"Cancelled by {auth.effective_identity}"
-    simple_backend[action_id] = action_status
+    action_database[action_id] = action_status
     return action_status
 
 
@@ -241,7 +256,7 @@ def my_action_release(action_id: str, auth: AuthState) -> ActionCallbackReturn:
     operation removes the ActionStatus object from the data store. The final, up
     to date ActionStatus is returned after a successful release.
     """
-    action_status = simple_backend.get(action_id)
+    action_status = action_database.get(action_id)
     if action_status is None:
         raise ActionNotFound(f"No action with {action_id}")
 
@@ -250,7 +265,7 @@ def my_action_release(action_id: str, auth: AuthState) -> ActionCallbackReturn:
         raise ActionConflict("Cannot release incomplete Action")
 
     action_status.display_status = f"Released by {auth.effective_identity}"
-    simple_backend.pop(action_id)
+    action_database.pop(action_id)
     return action_status
 
 

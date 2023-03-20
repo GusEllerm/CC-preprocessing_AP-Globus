@@ -18,13 +18,13 @@ data = 'CC-MAIN-2022-40'
 download_dir =  "./common_crawl_download"
 
 # Test vars
-cc_file_path = "/Users/eller/Projects/Action_Provider_V2/common_crawl_download/CC-MAIN-2022-40/CC-MAIN-2022-40-wet.paths.gz"
+cc_file_path = "/home/ubuntu/CC-preprocessing_AP-Globus/common_crawl_download/CC-MAIN-2022-40/CC-MAIN-2022-40-wet.paths.gz"
 prefix_list = "CC-MAIN-2022-40"
 
 @generate_flow_definition
 class TestClient(GladierBaseClient):
     gladier_tools = [
-        CC_Process
+        CC_Process,
     ]
     
 
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     flow = cc_process.run_flow(flow_input=flow_input)
 
     # Track the progress
-    action_id = flow['action_id']
-    cc_process.progress(action_id)
-    pprint(cc_process.get_status(action_id))
+    # action_id = flow['action_id']
+    # cc_process.progress(action_id)
+    # pprint(cc_process.get_status(action_id))
 

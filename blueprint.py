@@ -32,14 +32,14 @@ class ActionProviderInput(BaseModel):
     path: str = Field(
         ..., title="Path to wet.path.gz file", description="Path to data from the CC corpus"
     )
-    prefix_list: str = Field(
+    prefix: str = Field(
         ..., title="Selected segment to process", description="Segement to process, E.G 'CC-MAIN-2017-09'"
     )
 
     class Config:
         schema_extra = {"example": {
             "path": "common_crawl_download/CC-MAIN-2022-40/CC-MAIN-2022-40-wet.paths.gz",
-            "prefix_list": "CC-MAIN-2017-09"
+            "prefix": "CC-MAIN-2017-09"
             }}
 
 # Modified globus_auth_scope to be the newly generated scope
@@ -174,7 +174,7 @@ def CC_processing(action_id: str, request_body):
     print(request_body)
     from common_crawl_corpus.cc_corpus import CC_Corpus
     CC_Corpus = CC_Corpus()
-    CC_Corpus.process_crawl(request_body['path'],request_body['prefix_list'])
+    CC_Corpus.process_crawl(request_body['job_path'],request_body['prefix'])
 
     # Get the action from database
     action_status = action_database.get(action_id)

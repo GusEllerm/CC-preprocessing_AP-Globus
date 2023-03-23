@@ -200,7 +200,7 @@ class CC_Corpus(object):
     def __init__(self,
                  countries_to_skip=None,
                  url_filter: Optional[Union[str, os.PathLike, bytes]] = None,
-                 download_dir: Union[str, os.PathLike, bytes] = "./common_crawl_download"):
+                 download_dir: Union[str, os.PathLike, bytes] = "./data_store/"):
 
         # Ignore certain countries if there is already enough data
         if countries_to_skip is None:
@@ -314,7 +314,7 @@ class CC_Corpus(object):
 
         df = pd.DataFrame(lines, columns=("Domain", "Country", "URL", "LineID", "Text", "Hash"))
         df.reset_index()
-        df.to_feather(os.path.join(self.download_dir, cc_index, f'{name}.feather'))
+        df.to_feather(os.path.join(self.download_dir, cc_index, "processed_data", f'{name}.feather'))
 
     # ------------------------------------------------------------------------------------------------#
 
@@ -350,12 +350,31 @@ class CC_Corpus(object):
 
         # ------------------------------------------------------------------------------------------------------------#
 
-    def process_crawl(self, path, prefix_list, chunk_size=2):
+    def process_crawl(self, job_path, prefix, chunk_size=2):
         """Automatically download, process, and deduplicate on 1 prefix
         e.g. CC-MAIN-2022-40
         """
-        prefix_filedir = path
-        with gzip.open(prefix_filedir) as index_file:
+
+        # Creating and maintaining file structure
+        # - ./
+        # --- data_store/
+        # --- data_store/jobs/
+        # --- data_store/jobs/<prefix>
+        # --- data_store/processed_data/
+        # --- data_store/processed_data/<prefix>
+
+        processed_dir = os.path.join(f"./data_store/{prefix}/processed_data")
+        job_exists = os.path.exists(job_path)
+        processed_dir_exists = os.path.isdir(processed_dir)
+
+        if not job_exists:
+            raise Exception(f"{job_path} does not exist - have you run the first flow steps?")
+        if not processed_dir_exists:
+            os.makedirs(processed_dir)
+            print(f"Created directory: {processed_dir}")
+    
+        # processed_filedir = path.
+        with gzip.open(job_path) as index_file:
             lines = [line.decode("utf-8").rstrip() for line in index_file.readlines()]
         chunks = utilities.divide_list(lines, chunk_size)
         # process each chunk
@@ -366,16 +385,16 @@ class CC_Corpus(object):
                 self.download_and_process_wet_segment(segment)
 
             # Combine all dataframe within a shard
-            df_files = glob.glob(os.path.join(self.download_dir, prefix_list, 'CC-MAIN-*.feather'))
+            df_files = glob.glob(os.path.join(processed_dir, 'CC-MAIN-*.feather'))
             df_list = []
             for df_file in df_files:
                 df_list.append(pd.read_feather(df_file))
                 os.remove(df_file)
             # Save to file using the latest name, add prefix combined
-            filename = os.path.join(self.download_dir, prefix_list, f"combined-{os.path.basename(max(df_files))}")
+            filename = os.path.join(processed_dir, f"combined-{os.path.basename(max(df_files))}")
             pd.concat(df_list, ignore_index=True).to_feather(filename)
             # Dedupe, add prefix deduplicated
-            new_filename = os.path.join(self.download_dir, prefix_list, f"deduplicated-{os.path.basename(filename)}")
+            new_filename = os.path.join(processed_dir, f"deduplicated-{os.path.basename(filename)}")
             self._deduplicate_cc(filename, new_filename)
             os.remove(filename)
 

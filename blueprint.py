@@ -174,7 +174,7 @@ def CC_processing(action_id: str, request_body):
     print(request_body)
     from common_crawl_corpus.cc_corpus import CC_Corpus
     CC_Corpus = CC_Corpus()
-    CC_Corpus.process_crawl(request_body['job_path'],request_body['prefix'])
+    CC_Corpus.process_crawl(request_body['path'],request_body['prefix'])
 
     # Get the action from database
     action_status = action_database.get(action_id)

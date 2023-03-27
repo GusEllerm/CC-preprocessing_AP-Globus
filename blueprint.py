@@ -32,10 +32,14 @@ class ActionProviderInput(BaseModel):
     prefix: str = Field(
         ..., title="Selected segment to process", description="Segement to process, E.G 'CC-MAIN-2017-09'"
     )
+    chunk_size: int = Field(
+        ..., title="Chunk size", description="Number of URI's to process at a time"
+    )
 
     class Config:
         schema_extra = {"example": {
-            "prefix": "CC-MAIN-2017-09"
+            "prefix": "CC-MAIN-2017-09",
+            "chunk_size": 2
             }}
 
 # Modified globus_auth_scope to be the newly generated scope
@@ -174,12 +178,11 @@ def CC_processing(action_id: str, request_body):
     job_directory = request_body['prefix']
     job_path = f"{data_store}{job_directory}/jobs/{glob.glob(f'{data_store}{job_directory}/jobs/*')[0].split('/')[-1]}"
 
-
     # Create an instance of the custom CC corpus class
     print(request_body)
     from common_crawl_corpus.cc_corpus import CC_Corpus
     CC_Corpus = CC_Corpus()
-    CC_Corpus.process_crawl(job_path,request_body['prefix'])
+    CC_Corpus.process_crawl(job_path,request_body['prefix'], chunk_size=request_body['chunk_size'])
 
     # Get the action from database
     action_status = action_database.get(action_id)

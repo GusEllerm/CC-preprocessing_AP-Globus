@@ -29,16 +29,12 @@ from globus_action_provider_tools.flask.types import (
 from backend import action_database, request_database
 
 class ActionProviderInput(BaseModel):
-    path: str = Field(
-        ..., title="Path to wet.path.gz file", description="Path to data from the CC corpus"
-    )
     prefix: str = Field(
         ..., title="Selected segment to process", description="Segement to process, E.G 'CC-MAIN-2017-09'"
     )
 
     class Config:
         schema_extra = {"example": {
-            "path": "common_crawl_download/CC-MAIN-2022-40/CC-MAIN-2022-40-wet.paths.gz",
             "prefix": "CC-MAIN-2017-09"
             }}
 
@@ -170,11 +166,20 @@ def my_action_run(action_request: ActionRequest, auth: AuthState) -> ActionCallb
 
 # TODO strongly define request_body 
 def CC_processing(action_id: str, request_body):
+
+    import glob
+
+    # define file structure & get job_path 
+    data_store = "data_store/"
+    job_directory = request_body['prefix']
+    job_path = f"{data_store}{job_directory}/jobs/{glob.glob(f'{data_store}{job_directory}/jobs/*')[0].split('/')[-1]}"
+
+
     # Create an instance of the custom CC corpus class
     print(request_body)
     from common_crawl_corpus.cc_corpus import CC_Corpus
     CC_Corpus = CC_Corpus()
-    CC_Corpus.process_crawl(request_body['path'],request_body['prefix'])
+    CC_Corpus.process_crawl(job_path,request_body['prefix'])
 
     # Get the action from database
     action_status = action_database.get(action_id)

@@ -1,0 +1,565 @@
+2023-03-24 14:39:37,613 - common_crawl_corpus.cc_corpus - DEBUG - cc_corpus: class initialized
+2023-03-24 14:39:37,656 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 1 of 39922
+2023-03-24 14:39:37,656 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00156.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00157.warc.wet.gz']
+2023-03-24 14:39:37,656 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00156.warc.wet.gz
+2023-03-24 14:40:21,936 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00157.warc.wet.gz
+2023-03-24 14:41:04,672 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00157.warc.wet.feather
+2023-03-24 14:41:04,993 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 513180 formatted and removed 112627, remaining: 400553
+2023-03-24 14:41:05,345 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00157.warc.wet.feather
+2023-03-24 14:41:05,378 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 2 of 39922
+2023-03-24 14:41:05,378 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00158.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00159.warc.wet.gz']
+2023-03-24 14:41:05,378 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00158.warc.wet.gz
+2023-03-24 14:41:49,532 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00159.warc.wet.gz
+2023-03-24 14:42:32,587 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00159.warc.wet.feather
+2023-03-24 14:42:32,915 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533398 formatted and removed 115587, remaining: 417811
+2023-03-24 14:42:33,269 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00159.warc.wet.feather
+2023-03-24 14:42:33,301 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 3 of 39922
+2023-03-24 14:42:33,302 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00160.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00161.warc.wet.gz']
+2023-03-24 14:42:33,302 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00160.warc.wet.gz
+2023-03-24 14:43:18,266 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00161.warc.wet.gz
+2023-03-24 14:44:01,760 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00161.warc.wet.feather
+2023-03-24 14:44:02,072 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 545883 formatted and removed 120277, remaining: 425606
+2023-03-24 14:44:02,435 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00161.warc.wet.feather
+2023-03-24 14:44:02,467 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 4 of 39922
+2023-03-24 14:44:02,467 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00162.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00163.warc.wet.gz']
+2023-03-24 14:44:02,467 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00162.warc.wet.gz
+2023-03-24 14:44:47,626 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00163.warc.wet.gz
+2023-03-24 14:45:32,110 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00163.warc.wet.feather
+2023-03-24 14:45:32,435 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 542928 formatted and removed 117618, remaining: 425310
+2023-03-24 14:45:32,811 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00163.warc.wet.feather
+2023-03-24 14:45:32,842 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 5 of 39922
+2023-03-24 14:45:32,842 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00164.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00165.warc.wet.gz']
+2023-03-24 14:45:32,842 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00164.warc.wet.gz
+2023-03-24 14:46:18,286 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00165.warc.wet.gz
+2023-03-24 14:47:02,100 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00165.warc.wet.feather
+2023-03-24 14:47:02,405 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 524343 formatted and removed 109370, remaining: 414973
+2023-03-24 14:47:02,776 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00165.warc.wet.feather
+2023-03-24 14:47:02,808 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 6 of 39922
+2023-03-24 14:47:02,808 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00166.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00167.warc.wet.gz']
+2023-03-24 14:47:02,808 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00166.warc.wet.gz
+2023-03-24 14:47:45,768 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00167.warc.wet.gz
+2023-03-24 14:48:29,983 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00167.warc.wet.feather
+2023-03-24 14:48:30,297 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 529412 formatted and removed 112601, remaining: 416811
+2023-03-24 14:48:30,665 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00167.warc.wet.feather
+2023-03-24 14:48:30,696 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 7 of 39922
+2023-03-24 14:48:30,696 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00168.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00169.warc.wet.gz']
+2023-03-24 14:48:30,696 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00168.warc.wet.gz
+2023-03-24 14:49:15,365 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00169.warc.wet.gz
+2023-03-24 14:49:58,763 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00169.warc.wet.feather
+2023-03-24 14:49:59,052 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 519712 formatted and removed 110722, remaining: 408990
+2023-03-24 14:49:59,402 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00169.warc.wet.feather
+2023-03-24 14:49:59,431 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 8 of 39922
+2023-03-24 14:49:59,431 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00170.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00171.warc.wet.gz']
+2023-03-24 14:49:59,431 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00170.warc.wet.gz
+2023-03-24 14:50:45,833 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00171.warc.wet.gz
+2023-03-24 14:51:31,598 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00171.warc.wet.feather
+2023-03-24 14:51:31,899 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 539640 formatted and removed 118635, remaining: 421005
+2023-03-24 14:51:32,267 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00171.warc.wet.feather
+2023-03-24 14:51:32,295 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 9 of 39922
+2023-03-24 14:51:32,295 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00172.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00173.warc.wet.gz']
+2023-03-24 14:51:32,295 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00172.warc.wet.gz
+2023-03-24 14:52:16,592 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00173.warc.wet.gz
+2023-03-24 14:53:02,430 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00173.warc.wet.feather
+2023-03-24 14:53:02,725 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 527666 formatted and removed 105933, remaining: 421733
+2023-03-24 14:53:03,103 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00173.warc.wet.feather
+2023-03-24 14:53:03,131 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 10 of 39922
+2023-03-24 14:53:03,131 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00174.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00175.warc.wet.gz']
+2023-03-24 14:53:03,131 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00174.warc.wet.gz
+2023-03-24 14:53:47,790 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00175.warc.wet.gz
+2023-03-24 14:54:30,925 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00175.warc.wet.feather
+2023-03-24 14:54:31,219 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 519436 formatted and removed 111104, remaining: 408332
+2023-03-24 14:54:31,593 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00175.warc.wet.feather
+2023-03-24 14:54:31,622 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 11 of 39922
+2023-03-24 14:54:31,622 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00176.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00177.warc.wet.gz']
+2023-03-24 14:54:31,622 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00176.warc.wet.gz
+2023-03-24 14:55:13,968 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00177.warc.wet.gz
+2023-03-24 14:56:00,941 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00177.warc.wet.feather
+2023-03-24 14:56:01,248 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533435 formatted and removed 119141, remaining: 414294
+2023-03-24 14:56:01,591 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00177.warc.wet.feather
+2023-03-24 14:56:01,617 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 12 of 39922
+2023-03-24 14:56:01,618 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00178.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00179.warc.wet.gz']
+2023-03-24 14:56:01,618 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00178.warc.wet.gz
+2023-03-24 14:56:45,375 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00179.warc.wet.gz
+2023-03-24 14:57:29,805 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00179.warc.wet.feather
+2023-03-24 14:57:30,097 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 527917 formatted and removed 110552, remaining: 417365
+2023-03-24 14:57:30,450 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00179.warc.wet.feather
+2023-03-24 14:57:30,476 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 13 of 39922
+2023-03-24 14:57:30,476 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00180.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00181.warc.wet.gz']
+2023-03-24 14:57:30,476 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00180.warc.wet.gz
+2023-03-24 14:58:15,622 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00181.warc.wet.gz
+2023-03-24 14:59:00,069 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00181.warc.wet.feather
+2023-03-24 14:59:00,357 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 519757 formatted and removed 108697, remaining: 411060
+2023-03-24 14:59:00,709 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00181.warc.wet.feather
+2023-03-24 14:59:00,739 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 14 of 39922
+2023-03-24 14:59:00,739 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00182.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00183.warc.wet.gz']
+2023-03-24 14:59:00,739 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00182.warc.wet.gz
+2023-03-24 14:59:45,186 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00183.warc.wet.gz
+2023-03-24 15:00:30,335 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00183.warc.wet.feather
+2023-03-24 15:00:30,638 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 526920 formatted and removed 108970, remaining: 417950
+2023-03-24 15:00:30,993 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00183.warc.wet.feather
+2023-03-24 15:00:31,019 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 15 of 39922
+2023-03-24 15:00:31,019 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00184.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00185.warc.wet.gz']
+2023-03-24 15:00:31,019 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00184.warc.wet.gz
+2023-03-24 15:01:15,574 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00185.warc.wet.gz
+2023-03-24 15:02:00,024 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00185.warc.wet.feather
+2023-03-24 15:02:00,318 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 520116 formatted and removed 108618, remaining: 411498
+2023-03-24 15:02:00,693 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00185.warc.wet.feather
+2023-03-24 15:02:00,723 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 16 of 39922
+2023-03-24 15:02:00,723 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00186.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00187.warc.wet.gz']
+2023-03-24 15:02:00,723 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00186.warc.wet.gz
+2023-03-24 15:02:43,918 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00187.warc.wet.gz
+2023-03-24 15:03:29,980 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00187.warc.wet.feather
+2023-03-24 15:03:30,283 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 536525 formatted and removed 109878, remaining: 426647
+2023-03-24 15:03:30,645 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00187.warc.wet.feather
+2023-03-24 15:03:30,677 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 17 of 39922
+2023-03-24 15:03:30,677 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00188.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00189.warc.wet.gz']
+2023-03-24 15:03:30,677 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00188.warc.wet.gz
+2023-03-24 15:04:13,555 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00189.warc.wet.gz
+2023-03-24 15:04:58,327 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00189.warc.wet.feather
+2023-03-24 15:04:58,627 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 528155 formatted and removed 111407, remaining: 416748
+2023-03-24 15:04:58,991 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00189.warc.wet.feather
+2023-03-24 15:04:59,017 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 18 of 39922
+2023-03-24 15:04:59,017 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00190.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00191.warc.wet.gz']
+2023-03-24 15:04:59,017 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00190.warc.wet.gz
+2023-03-24 15:05:41,735 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00191.warc.wet.gz
+2023-03-24 15:06:24,908 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00191.warc.wet.feather
+2023-03-24 15:06:25,208 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531905 formatted and removed 107970, remaining: 423935
+2023-03-24 15:06:25,569 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00191.warc.wet.feather
+2023-03-24 15:06:25,596 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 19 of 39922
+2023-03-24 15:06:25,597 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00192.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00193.warc.wet.gz']
+2023-03-24 15:06:25,597 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00192.warc.wet.gz
+2023-03-24 15:07:11,460 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00193.warc.wet.gz
+2023-03-24 15:07:56,650 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00193.warc.wet.feather
+2023-03-24 15:07:56,944 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 544244 formatted and removed 114721, remaining: 429523
+2023-03-24 15:07:57,296 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00193.warc.wet.feather
+2023-03-24 15:07:57,322 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 20 of 39922
+2023-03-24 15:07:57,322 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00194.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00195.warc.wet.gz']
+2023-03-24 15:07:57,322 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00194.warc.wet.gz
+2023-03-24 15:08:43,899 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00195.warc.wet.gz
+2023-03-24 15:09:29,169 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00195.warc.wet.feather
+2023-03-24 15:09:29,460 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 527732 formatted and removed 113573, remaining: 414159
+2023-03-24 15:09:29,804 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00195.warc.wet.feather
+2023-03-24 15:09:29,830 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 21 of 39922
+2023-03-24 15:09:29,830 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00196.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00197.warc.wet.gz']
+2023-03-24 15:09:29,830 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00196.warc.wet.gz
+2023-03-24 15:10:12,111 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00197.warc.wet.gz
+2023-03-24 15:10:56,310 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00197.warc.wet.feather
+2023-03-24 15:10:56,593 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 514696 formatted and removed 108177, remaining: 406519
+2023-03-24 15:10:56,926 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00197.warc.wet.feather
+2023-03-24 15:10:56,951 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 22 of 39922
+2023-03-24 15:10:56,951 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00198.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00199.warc.wet.gz']
+2023-03-24 15:10:56,951 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00198.warc.wet.gz
+2023-03-24 15:11:43,853 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00199.warc.wet.gz
+2023-03-24 15:12:28,356 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00199.warc.wet.feather
+2023-03-24 15:12:28,668 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 634483 formatted and removed 198776, remaining: 435707
+2023-03-24 15:12:29,015 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00199.warc.wet.feather
+2023-03-24 15:12:29,042 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 23 of 39922
+2023-03-24 15:12:29,042 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00200.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00201.warc.wet.gz']
+2023-03-24 15:12:29,042 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00200.warc.wet.gz
+2023-03-24 15:13:11,179 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00201.warc.wet.gz
+2023-03-24 15:13:54,297 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00201.warc.wet.feather
+2023-03-24 15:13:54,595 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 515670 formatted and removed 106285, remaining: 409385
+2023-03-24 15:13:54,942 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00201.warc.wet.feather
+2023-03-24 15:13:54,971 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 24 of 39922
+2023-03-24 15:13:54,971 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00202.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00203.warc.wet.gz']
+2023-03-24 15:13:54,971 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00202.warc.wet.gz
+2023-03-24 15:14:40,538 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00203.warc.wet.gz
+2023-03-24 15:15:25,539 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00203.warc.wet.feather
+2023-03-24 15:15:25,840 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 537823 formatted and removed 117315, remaining: 420508
+2023-03-24 15:15:26,231 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00203.warc.wet.feather
+2023-03-24 15:15:26,261 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 25 of 39922
+2023-03-24 15:15:26,261 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00204.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00205.warc.wet.gz']
+2023-03-24 15:15:26,261 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00204.warc.wet.gz
+2023-03-24 15:16:11,237 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00205.warc.wet.gz
+2023-03-24 15:16:56,649 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00205.warc.wet.feather
+2023-03-24 15:16:56,973 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 526179 formatted and removed 106702, remaining: 419477
+2023-03-24 15:16:57,364 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00205.warc.wet.feather
+2023-03-24 15:16:57,394 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 26 of 39922
+2023-03-24 15:16:57,394 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00206.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00207.warc.wet.gz']
+2023-03-24 15:16:57,394 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00206.warc.wet.gz
+2023-03-24 15:17:42,123 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00207.warc.wet.gz
+2023-03-24 15:18:25,395 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00207.warc.wet.feather
+2023-03-24 15:18:25,700 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533541 formatted and removed 108359, remaining: 425182
+2023-03-24 15:18:26,071 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00207.warc.wet.feather
+2023-03-24 15:18:26,098 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 27 of 39922
+2023-03-24 15:18:26,098 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00208.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00209.warc.wet.gz']
+2023-03-24 15:18:26,098 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00208.warc.wet.gz
+2023-03-24 15:19:09,591 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00209.warc.wet.gz
+2023-03-24 15:19:53,202 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00209.warc.wet.feather
+2023-03-24 15:19:53,501 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 539642 formatted and removed 111179, remaining: 428463
+2023-03-24 15:19:53,849 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00209.warc.wet.feather
+2023-03-24 15:19:53,875 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 28 of 39922
+2023-03-24 15:19:53,875 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00210.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00211.warc.wet.gz']
+2023-03-24 15:19:53,875 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00210.warc.wet.gz
+2023-03-24 15:20:38,067 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00211.warc.wet.gz
+2023-03-24 15:21:23,004 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00211.warc.wet.feather
+2023-03-24 15:21:23,302 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 538024 formatted and removed 116330, remaining: 421694
+2023-03-24 15:21:23,656 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00211.warc.wet.feather
+2023-03-24 15:21:23,683 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 29 of 39922
+2023-03-24 15:21:23,683 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00212.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00213.warc.wet.gz']
+2023-03-24 15:21:23,683 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00212.warc.wet.gz
+2023-03-24 15:22:07,873 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00213.warc.wet.gz
+2023-03-24 15:22:52,418 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00213.warc.wet.feather
+2023-03-24 15:22:52,720 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531518 formatted and removed 105209, remaining: 426309
+2023-03-24 15:22:53,089 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00213.warc.wet.feather
+2023-03-24 15:22:53,116 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 30 of 39922
+2023-03-24 15:22:53,116 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00214.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00215.warc.wet.gz']
+2023-03-24 15:22:53,116 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00214.warc.wet.gz
+2023-03-24 15:23:35,920 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00215.warc.wet.gz
+2023-03-24 15:24:21,210 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00215.warc.wet.feather
+2023-03-24 15:24:21,515 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 521730 formatted and removed 106946, remaining: 414784
+2023-03-24 15:24:21,897 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00215.warc.wet.feather
+2023-03-24 15:24:21,925 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 31 of 39922
+2023-03-24 15:24:21,925 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00216.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00217.warc.wet.gz']
+2023-03-24 15:24:21,925 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00216.warc.wet.gz
+2023-03-24 15:25:04,811 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00217.warc.wet.gz
+2023-03-24 15:25:49,146 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00217.warc.wet.feather
+2023-03-24 15:25:49,454 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 523454 formatted and removed 108229, remaining: 415225
+2023-03-24 15:25:49,857 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00217.warc.wet.feather
+2023-03-24 15:25:49,887 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 32 of 39922
+2023-03-24 15:25:49,887 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00218.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00219.warc.wet.gz']
+2023-03-24 15:25:49,887 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00218.warc.wet.gz
+2023-03-24 15:26:32,139 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00219.warc.wet.gz
+2023-03-24 15:27:15,017 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00219.warc.wet.feather
+2023-03-24 15:27:15,300 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 511759 formatted and removed 107202, remaining: 404557
+2023-03-24 15:27:15,631 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00219.warc.wet.feather
+2023-03-24 15:27:15,655 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 33 of 39922
+2023-03-24 15:27:15,655 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00220.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00221.warc.wet.gz']
+2023-03-24 15:27:15,655 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00220.warc.wet.gz
+2023-03-24 15:27:59,399 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00221.warc.wet.gz
+2023-03-24 15:28:43,978 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00221.warc.wet.feather
+2023-03-24 15:28:44,265 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 523411 formatted and removed 110676, remaining: 412735
+2023-03-24 15:28:44,625 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00221.warc.wet.feather
+2023-03-24 15:28:44,652 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 34 of 39922
+2023-03-24 15:28:44,652 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00222.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00223.warc.wet.gz']
+2023-03-24 15:28:44,652 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00222.warc.wet.gz
+2023-03-24 15:29:29,360 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00223.warc.wet.gz
+2023-03-24 15:30:15,870 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00223.warc.wet.feather
+2023-03-24 15:30:16,190 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 554420 formatted and removed 116230, remaining: 438190
+2023-03-24 15:30:16,578 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00223.warc.wet.feather
+2023-03-24 15:30:16,609 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 35 of 39922
+2023-03-24 15:30:16,609 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00224.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00225.warc.wet.gz']
+2023-03-24 15:30:16,609 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00224.warc.wet.gz
+2023-03-24 15:30:59,846 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00225.warc.wet.gz
+2023-03-24 15:31:44,796 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00225.warc.wet.feather
+2023-03-24 15:31:45,104 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533867 formatted and removed 108769, remaining: 425098
+2023-03-24 15:31:45,466 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00225.warc.wet.feather
+2023-03-24 15:31:45,493 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 36 of 39922
+2023-03-24 15:31:45,494 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00226.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00227.warc.wet.gz']
+2023-03-24 15:31:45,494 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00226.warc.wet.gz
+2023-03-24 15:32:30,896 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00227.warc.wet.gz
+2023-03-24 15:33:15,028 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00227.warc.wet.feather
+2023-03-24 15:33:15,370 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 528454 formatted and removed 108875, remaining: 419579
+2023-03-24 15:33:15,756 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00227.warc.wet.feather
+2023-03-24 15:33:15,789 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 37 of 39922
+2023-03-24 15:33:15,789 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00228.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00229.warc.wet.gz']
+2023-03-24 15:33:15,789 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00228.warc.wet.gz
+2023-03-24 15:33:58,633 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00229.warc.wet.gz
+2023-03-24 15:34:48,551 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00229.warc.wet.feather
+2023-03-24 15:34:48,861 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 636871 formatted and removed 220102, remaining: 416769
+2023-03-24 15:34:49,245 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00229.warc.wet.feather
+2023-03-24 15:34:49,273 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 38 of 39922
+2023-03-24 15:34:49,273 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00230.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00231.warc.wet.gz']
+2023-03-24 15:34:49,273 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00230.warc.wet.gz
+2023-03-24 15:35:33,382 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00231.warc.wet.gz
+2023-03-24 15:36:17,704 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00231.warc.wet.feather
+2023-03-24 15:36:18,010 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 543693 formatted and removed 114571, remaining: 429122
+2023-03-24 15:36:18,379 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00231.warc.wet.feather
+2023-03-24 15:36:18,409 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 39 of 39922
+2023-03-24 15:36:18,409 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00232.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00233.warc.wet.gz']
+2023-03-24 15:36:18,409 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00232.warc.wet.gz
+2023-03-24 15:37:03,975 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00233.warc.wet.gz
+2023-03-24 15:37:49,045 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00233.warc.wet.feather
+2023-03-24 15:37:49,340 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 530746 formatted and removed 112783, remaining: 417963
+2023-03-24 15:37:49,703 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00233.warc.wet.feather
+2023-03-24 15:37:49,732 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 40 of 39922
+2023-03-24 15:37:49,732 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00234.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00235.warc.wet.gz']
+2023-03-24 15:37:49,732 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00234.warc.wet.gz
+2023-03-24 15:38:34,239 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00235.warc.wet.gz
+2023-03-24 15:39:18,173 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00235.warc.wet.feather
+2023-03-24 15:39:18,471 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 539469 formatted and removed 118045, remaining: 421424
+2023-03-24 15:39:18,834 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00235.warc.wet.feather
+2023-03-24 15:39:18,864 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 41 of 39922
+2023-03-24 15:39:18,865 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00236.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00237.warc.wet.gz']
+2023-03-24 15:39:18,865 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00236.warc.wet.gz
+2023-03-24 15:40:02,595 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00237.warc.wet.gz
+2023-03-24 15:40:46,713 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00237.warc.wet.feather
+2023-03-24 15:40:47,018 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 516476 formatted and removed 107247, remaining: 409229
+2023-03-24 15:40:47,368 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00237.warc.wet.feather
+2023-03-24 15:40:47,393 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 42 of 39922
+2023-03-24 15:40:47,393 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00238.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00239.warc.wet.gz']
+2023-03-24 15:40:47,393 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00238.warc.wet.gz
+2023-03-24 15:41:30,642 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00239.warc.wet.gz
+2023-03-24 15:42:16,908 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00239.warc.wet.feather
+2023-03-24 15:42:17,221 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 524139 formatted and removed 107730, remaining: 416409
+2023-03-24 15:42:17,582 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00239.warc.wet.feather
+2023-03-24 15:42:17,611 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 43 of 39922
+2023-03-24 15:42:17,611 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00240.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00241.warc.wet.gz']
+2023-03-24 15:42:17,611 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00240.warc.wet.gz
+2023-03-24 15:43:01,820 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00241.warc.wet.gz
+2023-03-24 15:43:45,095 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00241.warc.wet.feather
+2023-03-24 15:43:45,392 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 525901 formatted and removed 113165, remaining: 412736
+2023-03-24 15:43:45,741 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00241.warc.wet.feather
+2023-03-24 15:43:45,766 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 44 of 39922
+2023-03-24 15:43:45,767 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00242.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00243.warc.wet.gz']
+2023-03-24 15:43:45,767 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00242.warc.wet.gz
+2023-03-24 15:44:29,003 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00243.warc.wet.gz
+2023-03-24 15:45:15,146 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00243.warc.wet.feather
+2023-03-24 15:45:15,448 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531447 formatted and removed 109097, remaining: 422350
+2023-03-24 15:45:15,813 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00243.warc.wet.feather
+2023-03-24 15:45:15,840 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 45 of 39922
+2023-03-24 15:45:15,840 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00244.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00245.warc.wet.gz']
+2023-03-24 15:45:15,840 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00244.warc.wet.gz
+2023-03-24 15:46:00,601 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00245.warc.wet.gz
+2023-03-24 15:46:43,598 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00245.warc.wet.feather
+2023-03-24 15:46:43,899 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 529908 formatted and removed 109681, remaining: 420227
+2023-03-24 15:46:44,248 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00245.warc.wet.feather
+2023-03-24 15:46:44,276 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 46 of 39922
+2023-03-24 15:46:44,276 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00246.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00247.warc.wet.gz']
+2023-03-24 15:46:44,276 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00246.warc.wet.gz
+2023-03-24 15:47:29,124 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00247.warc.wet.gz
+2023-03-24 15:48:12,748 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00247.warc.wet.feather
+2023-03-24 15:48:13,041 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 532609 formatted and removed 110705, remaining: 421904
+2023-03-24 15:48:13,385 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00247.warc.wet.feather
+2023-03-24 15:48:13,412 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 47 of 39922
+2023-03-24 15:48:13,412 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00248.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00249.warc.wet.gz']
+2023-03-24 15:48:13,412 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00248.warc.wet.gz
+2023-03-24 15:48:58,559 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00249.warc.wet.gz
+2023-03-24 15:49:44,215 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00249.warc.wet.feather
+2023-03-24 15:49:44,522 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 519767 formatted and removed 105756, remaining: 414011
+2023-03-24 15:49:44,876 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00249.warc.wet.feather
+2023-03-24 15:49:44,904 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 48 of 39922
+2023-03-24 15:49:44,904 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00250.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00251.warc.wet.gz']
+2023-03-24 15:49:44,904 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00250.warc.wet.gz
+2023-03-24 15:50:29,447 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00251.warc.wet.gz
+2023-03-24 15:51:14,372 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00251.warc.wet.feather
+2023-03-24 15:51:14,675 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 532474 formatted and removed 115143, remaining: 417331
+2023-03-24 15:51:15,075 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00251.warc.wet.feather
+2023-03-24 15:51:15,102 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 49 of 39922
+2023-03-24 15:51:15,102 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00252.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00253.warc.wet.gz']
+2023-03-24 15:51:15,102 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00252.warc.wet.gz
+2023-03-24 15:52:02,339 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00253.warc.wet.gz
+2023-03-24 15:52:46,321 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00253.warc.wet.feather
+2023-03-24 15:52:46,615 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531324 formatted and removed 114379, remaining: 416945
+2023-03-24 15:52:46,965 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00253.warc.wet.feather
+2023-03-24 15:52:46,992 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 50 of 39922
+2023-03-24 15:52:46,992 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00254.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00255.warc.wet.gz']
+2023-03-24 15:52:46,992 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00254.warc.wet.gz
+2023-03-24 15:53:30,149 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00255.warc.wet.gz
+2023-03-24 15:54:13,884 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00255.warc.wet.feather
+2023-03-24 15:54:14,171 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 513711 formatted and removed 110245, remaining: 403466
+2023-03-24 15:54:14,513 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00255.warc.wet.feather
+2023-03-24 15:54:14,539 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 51 of 39922
+2023-03-24 15:54:14,539 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00256.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00257.warc.wet.gz']
+2023-03-24 15:54:14,539 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00256.warc.wet.gz
+2023-03-24 15:54:59,095 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00257.warc.wet.gz
+2023-03-24 15:55:42,917 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00257.warc.wet.feather
+2023-03-24 15:55:43,227 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 540927 formatted and removed 118276, remaining: 422651
+2023-03-24 15:55:43,597 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00257.warc.wet.feather
+2023-03-24 15:55:43,627 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 52 of 39922
+2023-03-24 15:55:43,627 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00258.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00259.warc.wet.gz']
+2023-03-24 15:55:43,627 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00258.warc.wet.gz
+2023-03-24 15:56:27,039 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00259.warc.wet.gz
+2023-03-24 15:57:13,851 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00259.warc.wet.feather
+2023-03-24 15:57:14,159 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 547965 formatted and removed 118333, remaining: 429632
+2023-03-24 15:57:14,530 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00259.warc.wet.feather
+2023-03-24 15:57:14,559 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 53 of 39922
+2023-03-24 15:57:14,559 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00260.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00261.warc.wet.gz']
+2023-03-24 15:57:14,559 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00260.warc.wet.gz
+2023-03-24 15:57:59,346 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00261.warc.wet.gz
+2023-03-24 15:58:45,507 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00261.warc.wet.feather
+2023-03-24 15:58:45,819 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 597309 formatted and removed 166418, remaining: 430891
+2023-03-24 15:58:46,189 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00261.warc.wet.feather
+2023-03-24 15:58:46,217 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 54 of 39922
+2023-03-24 15:58:46,217 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00262.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00263.warc.wet.gz']
+2023-03-24 15:58:46,217 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00262.warc.wet.gz
+2023-03-24 15:59:29,067 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00263.warc.wet.gz
+2023-03-24 16:00:14,814 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00263.warc.wet.feather
+2023-03-24 16:00:15,118 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 522745 formatted and removed 108467, remaining: 414278
+2023-03-24 16:00:15,489 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00263.warc.wet.feather
+2023-03-24 16:00:15,517 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 55 of 39922
+2023-03-24 16:00:15,517 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00264.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00265.warc.wet.gz']
+2023-03-24 16:00:15,517 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00264.warc.wet.gz
+2023-03-24 16:00:58,329 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00265.warc.wet.gz
+2023-03-24 16:01:42,490 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00265.warc.wet.feather
+2023-03-24 16:01:42,789 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 523169 formatted and removed 110007, remaining: 413162
+2023-03-24 16:01:43,138 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00265.warc.wet.feather
+2023-03-24 16:01:43,165 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 56 of 39922
+2023-03-24 16:01:43,166 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00266.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00267.warc.wet.gz']
+2023-03-24 16:01:43,166 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00266.warc.wet.gz
+2023-03-24 16:02:27,037 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00267.warc.wet.gz
+2023-03-24 16:03:11,210 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00267.warc.wet.feather
+2023-03-24 16:03:11,511 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 517364 formatted and removed 106684, remaining: 410680
+2023-03-24 16:03:11,873 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00267.warc.wet.feather
+2023-03-24 16:03:11,901 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 57 of 39922
+2023-03-24 16:03:11,902 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00268.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00269.warc.wet.gz']
+2023-03-24 16:03:11,902 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00268.warc.wet.gz
+2023-03-24 16:03:56,945 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00269.warc.wet.gz
+2023-03-24 16:04:41,265 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00269.warc.wet.feather
+2023-03-24 16:04:41,576 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533668 formatted and removed 114073, remaining: 419595
+2023-03-24 16:04:41,952 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00269.warc.wet.feather
+2023-03-24 16:04:41,981 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 58 of 39922
+2023-03-24 16:04:41,982 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00270.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00271.warc.wet.gz']
+2023-03-24 16:04:41,982 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00270.warc.wet.gz
+2023-03-24 16:05:25,687 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00271.warc.wet.gz
+2023-03-24 16:06:11,625 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00271.warc.wet.feather
+2023-03-24 16:06:11,922 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 530001 formatted and removed 113776, remaining: 416225
+2023-03-24 16:06:12,286 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00271.warc.wet.feather
+2023-03-24 16:06:12,313 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 59 of 39922
+2023-03-24 16:06:12,313 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00272.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00273.warc.wet.gz']
+2023-03-24 16:06:12,313 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00272.warc.wet.gz
+2023-03-24 16:06:56,518 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00273.warc.wet.gz
+2023-03-24 16:07:40,334 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00273.warc.wet.feather
+2023-03-24 16:07:40,642 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 514531 formatted and removed 102957, remaining: 411574
+2023-03-24 16:07:41,010 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00273.warc.wet.feather
+2023-03-24 16:07:41,039 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 60 of 39922
+2023-03-24 16:07:41,039 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00274.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00275.warc.wet.gz']
+2023-03-24 16:07:41,039 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00274.warc.wet.gz
+2023-03-24 16:08:25,310 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00275.warc.wet.gz
+2023-03-24 16:09:10,640 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00275.warc.wet.feather
+2023-03-24 16:09:10,934 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 529956 formatted and removed 104447, remaining: 425509
+2023-03-24 16:09:11,306 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00275.warc.wet.feather
+2023-03-24 16:09:11,332 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 61 of 39922
+2023-03-24 16:09:11,332 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00276.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00277.warc.wet.gz']
+2023-03-24 16:09:11,332 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00276.warc.wet.gz
+2023-03-24 16:09:54,520 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00277.warc.wet.gz
+2023-03-24 16:10:40,821 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00277.warc.wet.feather
+2023-03-24 16:10:41,120 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 527677 formatted and removed 108530, remaining: 419147
+2023-03-24 16:10:41,469 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00277.warc.wet.feather
+2023-03-24 16:10:41,499 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 62 of 39922
+2023-03-24 16:10:41,499 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00278.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00279.warc.wet.gz']
+2023-03-24 16:10:41,499 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00278.warc.wet.gz
+2023-03-24 16:11:23,385 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00279.warc.wet.gz
+2023-03-24 16:12:08,432 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00279.warc.wet.feather
+2023-03-24 16:12:08,740 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 517675 formatted and removed 107331, remaining: 410344
+2023-03-24 16:12:09,109 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00279.warc.wet.feather
+2023-03-24 16:12:09,137 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 63 of 39922
+2023-03-24 16:12:09,137 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00280.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00281.warc.wet.gz']
+2023-03-24 16:12:09,137 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00280.warc.wet.gz
+2023-03-24 16:12:53,585 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00281.warc.wet.gz
+2023-03-24 16:13:39,563 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00281.warc.wet.feather
+2023-03-24 16:13:39,864 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 528615 formatted and removed 108246, remaining: 420369
+2023-03-24 16:13:40,228 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00281.warc.wet.feather
+2023-03-24 16:13:40,257 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 64 of 39922
+2023-03-24 16:13:40,257 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00282.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00283.warc.wet.gz']
+2023-03-24 16:13:40,257 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00282.warc.wet.gz
+2023-03-24 16:14:24,571 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00283.warc.wet.gz
+2023-03-24 16:15:08,700 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00283.warc.wet.feather
+2023-03-24 16:15:08,989 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 513994 formatted and removed 104534, remaining: 409460
+2023-03-24 16:15:09,332 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00283.warc.wet.feather
+2023-03-24 16:15:09,357 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 65 of 39922
+2023-03-24 16:15:09,357 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00284.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00285.warc.wet.gz']
+2023-03-24 16:15:09,357 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00284.warc.wet.gz
+2023-03-24 16:15:53,603 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00285.warc.wet.gz
+2023-03-24 16:16:38,052 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00285.warc.wet.feather
+2023-03-24 16:16:38,357 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 525086 formatted and removed 106851, remaining: 418235
+2023-03-24 16:16:38,705 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00285.warc.wet.feather
+2023-03-24 16:16:38,731 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 66 of 39922
+2023-03-24 16:16:38,731 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00286.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00287.warc.wet.gz']
+2023-03-24 16:16:38,731 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00286.warc.wet.gz
+2023-03-24 16:17:22,476 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00287.warc.wet.gz
+2023-03-24 16:18:07,359 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00287.warc.wet.feather
+2023-03-24 16:18:07,659 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 529610 formatted and removed 110155, remaining: 419455
+2023-03-24 16:18:08,020 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00287.warc.wet.feather
+2023-03-24 16:18:08,046 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 67 of 39922
+2023-03-24 16:18:08,046 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00288.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00289.warc.wet.gz']
+2023-03-24 16:18:08,046 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00288.warc.wet.gz
+2023-03-24 16:18:52,500 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00289.warc.wet.gz
+2023-03-24 16:19:36,385 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00289.warc.wet.feather
+2023-03-24 16:19:36,684 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 524712 formatted and removed 108161, remaining: 416551
+2023-03-24 16:19:37,035 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00289.warc.wet.feather
+2023-03-24 16:19:37,062 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 68 of 39922
+2023-03-24 16:19:37,062 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00290.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00291.warc.wet.gz']
+2023-03-24 16:19:37,062 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00290.warc.wet.gz
+2023-03-24 16:20:20,686 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00291.warc.wet.gz
+2023-03-24 16:21:06,122 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00291.warc.wet.feather
+2023-03-24 16:21:06,420 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 528789 formatted and removed 113082, remaining: 415707
+2023-03-24 16:21:06,758 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00291.warc.wet.feather
+2023-03-24 16:21:06,784 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 69 of 39922
+2023-03-24 16:21:06,785 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00292.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00293.warc.wet.gz']
+2023-03-24 16:21:06,785 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00292.warc.wet.gz
+2023-03-24 16:21:51,484 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00293.warc.wet.gz
+2023-03-24 16:22:36,309 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00293.warc.wet.feather
+2023-03-24 16:22:36,605 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 525149 formatted and removed 114964, remaining: 410185
+2023-03-24 16:22:36,944 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00293.warc.wet.feather
+2023-03-24 16:22:36,969 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 70 of 39922
+2023-03-24 16:22:36,969 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00294.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00295.warc.wet.gz']
+2023-03-24 16:22:36,969 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00294.warc.wet.gz
+2023-03-24 16:23:21,784 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00295.warc.wet.gz
+2023-03-24 16:24:07,475 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00295.warc.wet.feather
+2023-03-24 16:24:07,788 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 540432 formatted and removed 112816, remaining: 427616
+2023-03-24 16:24:08,168 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00295.warc.wet.feather
+2023-03-24 16:24:08,200 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 71 of 39922
+2023-03-24 16:24:08,200 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00296.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00297.warc.wet.gz']
+2023-03-24 16:24:08,200 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00296.warc.wet.gz
+2023-03-24 16:24:53,902 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00297.warc.wet.gz
+2023-03-24 16:25:38,369 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00297.warc.wet.feather
+2023-03-24 16:25:38,687 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 535467 formatted and removed 107685, remaining: 427782
+2023-03-24 16:25:39,065 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00297.warc.wet.feather
+2023-03-24 16:25:39,096 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 72 of 39922
+2023-03-24 16:25:39,096 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00298.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00299.warc.wet.gz']
+2023-03-24 16:25:39,096 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00298.warc.wet.gz
+2023-03-24 16:26:23,914 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00299.warc.wet.gz
+2023-03-24 16:27:09,726 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00299.warc.wet.feather
+2023-03-24 16:27:10,034 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531103 formatted and removed 116080, remaining: 415023
+2023-03-24 16:27:10,395 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00299.warc.wet.feather
+2023-03-24 16:27:10,421 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 73 of 39922
+2023-03-24 16:27:10,421 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00300.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00301.warc.wet.gz']
+2023-03-24 16:27:10,421 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00300.warc.wet.gz
+2023-03-24 16:27:55,015 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00301.warc.wet.gz
+2023-03-24 16:28:41,033 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00301.warc.wet.feather
+2023-03-24 16:28:41,357 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 547729 formatted and removed 116110, remaining: 431619
+2023-03-24 16:28:41,734 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00301.warc.wet.feather
+2023-03-24 16:28:41,765 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 74 of 39922
+2023-03-24 16:28:41,766 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00302.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00303.warc.wet.gz']
+2023-03-24 16:28:41,766 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00302.warc.wet.gz
+2023-03-24 16:29:33,693 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00303.warc.wet.gz
+2023-03-24 16:30:17,577 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00303.warc.wet.feather
+2023-03-24 16:30:17,871 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531151 formatted and removed 108301, remaining: 422850
+2023-03-24 16:30:18,233 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00303.warc.wet.feather
+2023-03-24 16:30:18,259 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 75 of 39922
+2023-03-24 16:30:18,259 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00304.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00305.warc.wet.gz']
+2023-03-24 16:30:18,259 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00304.warc.wet.gz
+2023-03-24 16:31:01,550 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00305.warc.wet.gz
+2023-03-24 16:31:47,128 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00305.warc.wet.feather
+2023-03-24 16:31:47,435 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 534685 formatted and removed 108073, remaining: 426612
+2023-03-24 16:31:47,787 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00305.warc.wet.feather
+2023-03-24 16:31:47,813 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 76 of 39922
+2023-03-24 16:31:47,813 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00306.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00307.warc.wet.gz']
+2023-03-24 16:31:47,813 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00306.warc.wet.gz
+2023-03-24 16:32:33,991 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00307.warc.wet.gz
+2023-03-24 16:33:18,288 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00307.warc.wet.feather
+2023-03-24 16:33:18,598 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 541981 formatted and removed 113569, remaining: 428412
+2023-03-24 16:33:18,977 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00307.warc.wet.feather
+2023-03-24 16:33:19,005 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 77 of 39922
+2023-03-24 16:33:19,005 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00308.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00309.warc.wet.gz']
+2023-03-24 16:33:19,005 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00308.warc.wet.gz
+2023-03-24 16:34:00,936 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00309.warc.wet.gz
+2023-03-24 16:34:45,082 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00309.warc.wet.feather
+2023-03-24 16:34:45,378 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 508979 formatted and removed 101618, remaining: 407361
+2023-03-24 16:34:45,740 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00309.warc.wet.feather
+2023-03-24 16:34:45,767 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 78 of 39922
+2023-03-24 16:34:45,767 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00310.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00311.warc.wet.gz']
+2023-03-24 16:34:45,767 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00310.warc.wet.gz
+2023-03-24 16:35:29,093 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00311.warc.wet.gz
+2023-03-24 16:36:13,089 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00311.warc.wet.feather
+2023-03-24 16:36:13,382 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 542353 formatted and removed 118013, remaining: 424340
+2023-03-24 16:36:13,735 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00311.warc.wet.feather
+2023-03-24 16:36:13,763 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 79 of 39922
+2023-03-24 16:36:13,763 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00312.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00313.warc.wet.gz']
+2023-03-24 16:36:13,763 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00312.warc.wet.gz
+2023-03-24 16:36:57,959 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00313.warc.wet.gz
+2023-03-24 16:37:41,596 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00313.warc.wet.feather
+2023-03-24 16:37:41,892 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 533239 formatted and removed 110306, remaining: 422933
+2023-03-24 16:37:42,247 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00313.warc.wet.feather
+2023-03-24 16:37:42,273 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 80 of 39922
+2023-03-24 16:37:42,273 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00314.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00315.warc.wet.gz']
+2023-03-24 16:37:42,273 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00314.warc.wet.gz
+2023-03-24 16:38:24,514 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00315.warc.wet.gz
+2023-03-24 16:39:08,001 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00315.warc.wet.feather
+2023-03-24 16:39:08,311 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 523960 formatted and removed 105439, remaining: 418521
+2023-03-24 16:39:08,661 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00315.warc.wet.feather
+2023-03-24 16:39:08,688 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 81 of 39922
+2023-03-24 16:39:08,688 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00316.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00317.warc.wet.gz']
+2023-03-24 16:39:08,688 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00316.warc.wet.gz
+2023-03-24 16:39:52,683 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00317.warc.wet.gz

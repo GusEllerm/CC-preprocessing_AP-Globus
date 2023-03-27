@@ -304,17 +304,33 @@ class CC_Corpus(object):
         segment_stream = requests.get(url, stream=True)
 
         lines = []
-        for record in ArchiveIterator(segment_stream.raw):
-            if temp := self._process_wet_record(record):
-                lines.extend(temp)
-        # add prefix dataframe to filename, change extension to .feather stead of gzip
-        path_split = index.split(os.sep)
-        cc_index = path_split[1]  # CC-MAIN-2022-40
-        name, _ = os.path.splitext(path_split[-1])  # e.g. CC-MAIN-2....wet
 
-        df = pd.DataFrame(lines, columns=("Domain", "Country", "URL", "LineID", "Text", "Hash"))
-        df.reset_index()
-        df.to_feather(os.path.join(self.download_dir, cc_index, "processed_data", f'{name}.feather'))
+        # TESTING
+
+        try: 
+
+            for record in ArchiveIterator(segment_stream.raw):
+                if temp := self._process_wet_record(record):
+                    lines.extend(temp)
+            # add prefix dataframe to filename, change extension to .feather stead of gzip
+            path_split = index.split(os.sep)
+            cc_index = path_split[1]  # CC-MAIN-2022-40
+            name, _ = os.path.splitext(path_split[-1])  # e.g. CC-MAIN-2....wet
+
+            # Testing & retreving lines when there is an issue
+            df = pd.DataFrame(lines, columns=("Domain", "Country", "URL", "LineID", "Text", "Hash"))
+
+            df.reset_index()
+            df.to_feather(os.path.join(self.download_dir, cc_index, "processed_data", f'{name}.feather'))
+        
+        except:
+            print(segment_stream.content)
+            print(segment_stream.content.decode('utf8'))
+            print(segment_stream.headers)
+            print(segment_stream.encoding)
+            print(segment_stream.json)
+            print(segment_stream.raw)
+            print(segment_stream.status_code)
 
     # ------------------------------------------------------------------------------------------------#
 

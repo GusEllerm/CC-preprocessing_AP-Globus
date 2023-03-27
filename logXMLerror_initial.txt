@@ -1,0 +1,57 @@
+2023-03-24 11:52:10,414 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00149.warc.wet.feather
+2023-03-24 11:52:10,437 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 76 of 40000
+2023-03-24 11:52:10,437 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00150.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00151.warc.wet.gz']
+2023-03-24 11:52:10,437 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00150.warc.wet.gz
+2023-03-24 11:52:48,176 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00151.warc.wet.gz
+2023-03-24 11:53:25,901 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00151.warc.wet.feather
+2023-03-24 11:53:26,157 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 519998 formatted and removed 106816, remaining: 413182
+2023-03-24 11:53:26,450 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00151.warc.wet.feather
+2023-03-24 11:53:26,473 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 77 of 40000
+2023-03-24 11:53:26,473 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00152.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00153.warc.wet.gz']
+2023-03-24 11:53:26,473 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00152.warc.wet.gz
+2023-03-24 11:54:05,096 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00153.warc.wet.gz
+2023-03-24 11:54:42,576 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00153.warc.wet.feather
+2023-03-24 11:54:42,833 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 531083 formatted and removed 114060, remaining: 417023
+2023-03-24 11:54:43,120 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00153.warc.wet.feather
+2023-03-24 11:54:43,143 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 78 of 40000
+2023-03-24 11:54:43,143 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00154.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00155.warc.wet.gz']
+2023-03-24 11:54:43,143 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00154.warc.wet.gz
+2023-03-24 11:55:20,749 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00155.warc.wet.gz
+2023-03-24 11:59:10,918 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00155.warc.wet.feather
+2023-03-24 11:59:11,192 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 526010 formatted and removed 111069, remaining: 414941
+2023-03-24 11:59:11,498 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00155.warc.wet.feather
+2023-03-24 11:59:11,522 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 79 of 40000
+2023-03-24 11:59:11,522 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00156.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00157.warc.wet.gz']
+2023-03-24 11:59:11,522 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00156.warc.wet.gz
+2023-03-24 11:59:48,944 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00157.warc.wet.gz
+2023-03-24 12:00:27,959 - common_crawl_corpus.cc_corpus - INFO - _deduplicate_cc: De-duplicating combined-CC-MAIN-20220924151538-20220924181538-00157.warc.wet.feather
+2023-03-24 12:00:28,206 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: 513180 formatted and removed 112627, remaining: 400553
+2023-03-24 12:00:28,475 - common_crawl_corpus.cc_corpus - DEBUG - _deduplicate_cc: saved as ./data_store/CC-MAIN-2022-40/processed_data/deduplicated-combined-CC-MAIN-20220924151538-20220924181538-00157.warc.wet.feather
+2023-03-24 12:00:28,498 - common_crawl_corpus.cc_corpus - INFO - Processing chunk 80 of 40000
+2023-03-24 12:00:28,498 - common_crawl_corpus.cc_corpus - DEBUG - ['crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00158.warc.wet.gz', 'crawl-data/CC-MAIN-2022-40/segments/1664030331677.90/wet/CC-MAIN-20220924151538-20220924181538-00159.warc.wet.gz']
+2023-03-24 12:00:28,498 - common_crawl_corpus.cc_corpus - DEBUG - download & process_wet_segment: processing CC-MAIN-20220924151538-20220924181538-00158.warc.wet.gz
+Traceback (most recent call last):
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/recordloader.py", line 236, in _detect_type_load_headers
+    rec_headers = self.arc_parser.parse(stream, statusline)
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/recordloader.py", line 312, in parse
+    raise StatusAndHeadersParserException(msg, parts)
+warcio.statusandheaders.StatusAndHeadersParserException: Wrong # of headers, expected arc headers ['uri', 'ip-address', 'archive-date', 'content-type', 'length'], Found ['<?xml', 'version="1.0"', 'encoding="UTF-8"?>']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eller/Projects/Action_Provider_V2/test.py", line 5, in <module>
+    cc.process_crawl("data_store/CC-MAIN-2022-40/jobs/CC-MAIN-2022-40-wet.paths.gz", "CC-MAIN-2022-40")
+  File "/Users/eller/Projects/Action_Provider_V2/common_crawl_corpus/cc_corpus.py", line 385, in process_crawl
+    self.download_and_process_wet_segment(segment)
+  File "/Users/eller/Projects/Action_Provider_V2/common_crawl_corpus/cc_corpus.py", line 307, in download_and_process_wet_segment
+    for record in ArchiveIterator(segment_stream.raw):
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/archiveiterator.py", line 110, in _iterate_records
+    self.record = self._next_record(self.next_line)
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/archiveiterator.py", line 257, in _next_record
+    record = self.loader.parse_record_stream(self.reader,
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/recordloader.py", line 86, in parse_record_stream
+    _detect_type_load_headers(stream,
+  File "/Users/eller/Projects/Action_Provider_V2/venv/lib/python3.10/site-packages/warcio/recordloader.py", line 243, in _detect_type_load_headers
+    raise ArchiveLoadFailed(msg + str(se.statusline))
+warcio.exceptions.ArchiveLoadFailed: Unknown archive format, first line: ['<?xml', 'version="1.0"', 'encoding="UTF-8"?>']
